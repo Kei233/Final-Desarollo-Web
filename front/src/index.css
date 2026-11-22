@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Paleta Duby Sazón: naranja + morado + blanco fantasma (neutro) */
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+
+  --color-naranja: #ea580c;
+  --color-naranja-oscuro: #c2410c;
+  --color-naranja-claro: #ffedd5;
+
+  --color-morado: #6d28d9;
+  --color-morado-oscuro: #3b1a73;
+  --color-morado-claro: #ede9fe;
+
+  --color-fantasma: #f8f8ff;
+}
+
+body {
+  background: var(--color-fantasma);
+  color: var(--color-morado-oscuro);
+}
