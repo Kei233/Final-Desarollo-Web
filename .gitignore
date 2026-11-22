@@ -3,3 +3,7 @@ dist/
 .env
 *.log
 .DS_Store
+.next
+.vscode
+.eslintrc.json
+.next.config.mjs
